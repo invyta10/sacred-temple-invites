@@ -105,7 +105,7 @@ const RSVPSection = () => {
         >
           <p className="text-muted-foreground text-xs mb-3 font-body">Or respond quickly via</p>
           <a
-            href={`https://wa.me/919876543210?text=${whatsappMessage}`}
+            href={`https://wa.me/918141721001?text=${whatsappMessage}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-2.5 border border-temple-green/40 text-temple-green rounded-sm font-body text-sm tracking-wide transition-all duration-300 hover:bg-temple-green/10"
