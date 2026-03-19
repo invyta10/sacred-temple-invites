@@ -1,16 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import FloatingPetals from "@/components/FloatingPetals";
+import HeroEntrance from "@/components/HeroEntrance";
+import CoupleIntro from "@/components/CoupleIntro";
+import SacredTimeline from "@/components/SacredTimeline";
+import VenueSection from "@/components/VenueSection";
+import CountdownSection from "@/components/CountdownSection";
+import RSVPSection from "@/components/RSVPSection";
+import GallerySection from "@/components/GallerySection";
+import BlessingsSection from "@/components/BlessingsSection";
+import ClosingSection from "@/components/ClosingSection";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="relative bg-background">
+      <FloatingPetals />
+      <HeroEntrance />
+      <CoupleIntro />
+      <SacredTimeline />
+      <VenueSection />
+      <CountdownSection />
+      <GallerySection />
+      <BlessingsSection />
+      <RSVPSection />
+      <ClosingSection />
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
